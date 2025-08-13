@@ -1,5 +1,7 @@
 import React from "react";
 import { ChevronDown, Download, Github, Mail } from "lucide-react";
+import rishiImage from "../assets/rishi.jpg";
+
 
 const Hero = () => {
   return (
@@ -19,13 +21,11 @@ const Hero = () => {
             <div className="relative w-32 h-32 mx-auto mb-6 rounded-full p-[3px] bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600">
   <div className="rounded-full overflow-hidden w-full h-full">
     <img
-      src="public\rishi.jpg" 
-      alt="Rishi Kumar Gade"
+      src={rishiImage} alt="Rishi Kumar Gade"
       className="w-full h-full object-cover"
     />
   </div>
 </div>
-
 
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 animate-fade-in">
               Rishi Kumar Gade
