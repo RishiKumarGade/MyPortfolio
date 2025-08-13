@@ -25,15 +25,15 @@ const Contact = () => {
 
     emailjs
       .send(
-        'YOUR_SERVICE_ID', // from EmailJS dashboard
-        'YOUR_TEMPLATE_ID', // from EmailJS dashboard
+        'YOUR_SERVICE_ID', 
+        'YOUR_TEMPLATE_ID', 
         {
           name: formData.name,
           email: formData.email,
           subject: formData.subject,
           message: formData.message
         },
-        'YOUR_PUBLIC_KEY' // from EmailJS dashboard
+        'YOUR_PUBLIC_KEY'
       )
       .then(() => {
         alert('✅ Message sent successfully!');

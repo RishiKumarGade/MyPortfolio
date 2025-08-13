@@ -7,7 +7,6 @@ const Hero = () => {
       id="home"
       className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-600 via-purple-600 to-teal-600 relative overflow-hidden"
     >
-      {/* Background Animation */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/10 rounded-full blur-xl animate-pulse"></div>
@@ -20,7 +19,7 @@ const Hero = () => {
             <div className="relative w-32 h-32 mx-auto mb-6 rounded-full p-[3px] bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600">
   <div className="rounded-full overflow-hidden w-full h-full">
     <img
-      src="src\assets\rishi.jpg" 
+      src="public\rishi.jpg" 
       alt="Rishi Kumar Gade"
       className="w-full h-full object-cover"
     />
@@ -75,7 +74,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <a
           href="#about"
