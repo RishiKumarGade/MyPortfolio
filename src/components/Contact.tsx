@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Mail, MapPin, Phone, Send, Github, Linkedin } from 'lucide-react';
+import  { useState } from 'react';
+import { Mail, MapPin, Phone, Github, Linkedin } from 'lucide-react';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
